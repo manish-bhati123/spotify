@@ -1,0 +1,223 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+@media (max-width:1400px){
+  
+  
+  .nav{
+    position: relative;
+    width: 1000px;
+  }
+  .left{
+    position: relative;
+    width: 330px;
+  }
+
+  .right{
+    position: relative;
+    width: 90vw;
+    margin-bottom: 5px;
+    left: 0.7%;
+  }
+
+  .playbar{
+
+  position:fixed;
+  bottom: 80px;
+    
+  }
+}
+
+/* @media (min-width:414px){
+  
+
+  .nav{
+    position: relative;
+    width: 750px;
+  }
+  .left{
+    position: relative;
+    width: 330px;
+  }
+
+  .right{
+    position: relative;
+    width: 300px;
+    margin-left: 15px;
+  }
+
+  .playbar{
+  bottom: 770px;
+  position: fixed;
+    
+  }
+} */
+
+/* @media (min-width:416px)and(max-width:){
+  
+
+  .nav{
+    position: relative;
+    width: 830px;
+  }
+  .left{
+    position: relative;
+    width: 330px;
+  }
+
+  .right{
+    position: relative;
+    width: 300px;
+    left: 12.5%;
+  }
+
+  .playbar{
+  bottom: 770px;
+  position: fixed;
+    
+  }
+} */
+
+
+
+
+
+@media (max-width: 1400px) {
+  /* Adjust the main container layout for smaller screens */
+  .container {
+      flex-direction: row;
+      height: auto; /* Ensure it adjusts based on content */
+  }
+
+  .left {
+      width: 24vw;
+      height: auto;
+      margin-left: 0;
+      margin-top: 0;
+  }
+  .right{
+    width: 75vw;
+    height: 500px;
+    margin-left: 50vw;
+    margin-top: 0;
+   
+  }
+
+  /* Adjust navigation bar */
+  .nav {
+      flex-direction: row;
+      align-items: center;
+      height: auto;
+      width: 200vw;
+      display: flex;
+      justify-content: space-evenly
+    
+
+
+  }
+
+  .nav-search {
+      width: 40%;
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  /* Adjust the logo size */
+  .logo {
+      height: 30px;
+      width: 30px;
+      margin-left: -48px;
+  }
+
+  /* Home button adjustments */
+  .home {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  /* Card layout for smaller screens */
+  .cardContainer {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  /* Playbar adjustments */
+  .playbar {
+      height: 15vh;
+      flex-direction: column;
+      bottom: 700px;
+  }
+
+  .songlist ul li {
+      font-size: 14px;
+      gap: 20px;
+  }
+
+  /* Adjust search input */
+  .input {
+      width: 75%;
+  }
+
+  .look, .search {
+      font-size: 1rem;
+      width: 20px;
+      height: 20px;
+  }
+
+  /* Buttons (Sing In/Log In) adjustments */
+  /* #sing, #login {
+      width: 60%;
+      font-size: 0.9rem;
+      display: inline;
+  } */
+
+  /* Adjust the footer to center content */
+  footer {
+      flex-direction: row;
+      align-items: center;
+  }
+  .right{
+    width: 70vw;
+  }
+}
+
+@media (max-width: 780px) {
+ 
+  .nav-search {
+      width: 40%;
+      margin-left: 0;
+  }
+
+  .card {
+      width: 70%;
+      padding: 5px;
+  }
+
+  .logo {
+      height: 25px;
+      width: 25px;
+  }
+
+ 
+  h2, p {
+      font-size: 14px;
+  }
+
+  .songlist ul li {
+      font-size: 12px;
+      gap: 10px;
+  }
+  .playbar{
+    top:550px;
+  }
+  /* .right{
+    width: 80vw;
+  } */
+}
+
